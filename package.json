@@ -1,0 +1,20 @@
+{
+  "name": "cricd-parser",
+  "version": "1.0.0",
+  "description": "Parses cricsheet yaml files and outputs cricd matchEvents",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "multi-progress": "^2.0.0",
+    "node-fetch": "^2.1.2",
+    "node-yaml": "^3.1.1",
+    "readdir-enhanced": "^2.2.1",
+    "sane": "^4.0.2",
+    "underscore": "^1.9.0"
+  }
+}
